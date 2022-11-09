@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="ISP_porte_probleme.copy.Porte" project="_Exp_ISP_cours_Diapo86bon" 
+    file="/_Exp_ISP_cours_Diapo86bon/src/ISP_porte_probleme/copy/Porte.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="180" x="494" y="140"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="ISP_porte_probleme.copy.PorteApp" project="_Exp_ISP_cours_Diapo86bon" 
+    file="/_Exp_ISP_cours_Diapo86bon/src/ISP_porte_probleme/copy/PorteApp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="152" x="714" y="140"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="ISP_porte_probleme.copy.IPorte" project="_Exp_ISP_cours_Diapo86bon" 
+    file="/_Exp_ISP_cours_Diapo86bon/src/ISP_porte_probleme/copy/IPorte.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="180" x="494" y="322"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <realization id="4">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
